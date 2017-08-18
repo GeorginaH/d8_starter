@@ -1,0 +1,21 @@
+uuid: 3367f7b8-881e-4570-87c1-d9320d4d2ca8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_year
+    - node.type.instrumento
+  module:
+    - options
+id: node.instrumento.field_year
+field_name: field_year
+entity_type: node
+bundle: instrumento
+label: Year
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

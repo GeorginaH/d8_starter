@@ -1,0 +1,27 @@
+uuid: ee61031d-b5be-434a-a8bb-74ebb856974c
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomy
+label: Taxonomy
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary:name]/[term:name]'
+selection_criteria:
+  81136f75-8f4b-4a6e-82d2-378cb7a93380:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      categoria: categoria
+      country: country
+      marca: marca
+      modelo: modelo
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 81136f75-8f4b-4a6e-82d2-378cb7a93380
+selection_logic: and
+weight: -5
+relationships: {  }

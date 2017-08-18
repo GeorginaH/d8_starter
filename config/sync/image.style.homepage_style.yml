@@ -1,0 +1,15 @@
+uuid: 36f3980a-d491-4fe1-bf58-254fd9f3eaa7
+langcode: en
+status: true
+dependencies: {  }
+name: homepage_style
+label: 'homepage style'
+effects:
+  8a840311-0f31-49e6-8635-d2c83fe658a8:
+    uuid: 8a840311-0f31-49e6-8635-d2c83fe658a8
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 1000
+      upscale: false

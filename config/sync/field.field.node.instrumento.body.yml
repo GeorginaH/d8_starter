@@ -1,0 +1,22 @@
+uuid: 30db1469-93e3-478d-852d-4900ff3dfcef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.instrumento
+  module:
+    - text
+id: node.instrumento.body
+field_name: body
+entity_type: node
+bundle: instrumento
+label: Características
+description: 'Descripción y Características que posee un instrumento.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

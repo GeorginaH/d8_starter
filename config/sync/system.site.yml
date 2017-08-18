@@ -1,11 +1,11 @@
 uuid: 6cbf1265-a12b-4400-bd32-dab5739266fb
-name: Site-Install
+name: 'Bienvenid@s a Catálogo Instrumental'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/55
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

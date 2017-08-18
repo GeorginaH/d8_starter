@@ -1,0 +1,9 @@
+uuid: c8253737-47da-4317-98ad-eda8a2f7927e
+langcode: en
+status: true
+dependencies: {  }
+name: Categoría
+vid: categoria
+description: ''
+hierarchy: 0
+weight: 0

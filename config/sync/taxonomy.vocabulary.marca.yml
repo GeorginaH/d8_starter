@@ -1,0 +1,9 @@
+uuid: 05796862-cdad-47a3-83b2-be4360f9591a
+langcode: en
+status: true
+dependencies: {  }
+name: Marca
+vid: marca
+description: ''
+hierarchy: 0
+weight: 0

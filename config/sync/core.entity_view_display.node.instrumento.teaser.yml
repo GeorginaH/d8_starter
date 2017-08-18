@@ -1,0 +1,40 @@
+uuid: 90976137-ea50-4508-afd4-c84fabf6d26f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.instrumento.body
+    - field.field.node.instrumento.field_categoria
+    - field.field.node.instrumento.field_foto
+    - field.field.node.instrumento.field_marca
+    - field.field.node.instrumento.field_model
+    - field.field.node.instrumento.field_precio
+    - field.field.node.instrumento.field_year
+    - image.style.thumbnail
+    - node.type.instrumento
+  module:
+    - image
+    - user
+id: node.instrumento.teaser
+targetEntityType: node
+bundle: instrumento
+mode: teaser
+content:
+  field_foto:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_categoria: true
+  field_marca: true
+  field_model: true
+  field_precio: true
+  field_year: true
+  links: true

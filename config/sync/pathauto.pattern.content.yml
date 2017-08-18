@@ -1,0 +1,27 @@
+uuid: 3105fb20-3a33-4c56-ad77-45294cd3896d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content
+label: Content
+type: 'canonical_entities:node'
+pattern: '[node:content-type:name]/[node:title]'
+selection_criteria:
+  d1a67adb-c891-4f32-baf7-6715aca6494e:
+    id: node_type
+    bundles:
+      article: article
+      instrumento: instrumento
+      landing_page: landing_page
+      page: page
+      people: people
+      person: person
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d1a67adb-c891-4f32-baf7-6715aca6494e
+selection_logic: and
+weight: -5
+relationships: {  }
