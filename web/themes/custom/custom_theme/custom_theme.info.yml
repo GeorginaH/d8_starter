@@ -22,3 +22,4 @@ regions:
 libraries:
   - custom_theme/global-styling
   - custom_theme/bootstrap-scripts
+  - custom_theme/jquery-match-height

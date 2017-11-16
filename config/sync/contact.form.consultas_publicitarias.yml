@@ -1,0 +1,12 @@
+uuid: 048793e4-eb7e-4ba1-a97d-2b8bc5f5d222
+langcode: en
+status: true
+dependencies: {  }
+id: consultas_publicitarias
+label: 'Consultas publicitarias'
+recipients:
+  - hadageorgina@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

@@ -1,0 +1,23 @@
+uuid: 7778b23c-877c-4951-bf3c-611e5e112ee5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio
+    - node.type.instrumento
+id: node.instrumento.field_precio
+field_name: field_precio
+entity_type: node
+bundle: instrumento
+label: Precio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: C$
+  suffix: ''
+field_type: float

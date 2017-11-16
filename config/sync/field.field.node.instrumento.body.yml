@@ -1,0 +1,22 @@
+uuid: 2da7a1cd-6db8-4437-9e1a-31529c547851
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.instrumento
+  module:
+    - text
+id: node.instrumento.body
+field_name: body
+entity_type: node
+bundle: instrumento
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

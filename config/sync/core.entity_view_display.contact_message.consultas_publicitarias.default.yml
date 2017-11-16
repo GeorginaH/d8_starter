@@ -1,0 +1,38 @@
+uuid: 9a1cf38f-5fd4-410e-8e91-348c3479f675
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.consultas_publicitarias
+    - field.field.contact_message.consultas_publicitarias.field_foto_del_producto
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: contact_message.consultas_publicitarias.default
+targetEntityType: contact_message
+bundle: consultas_publicitarias
+mode: default
+content:
+  field_foto_del_producto:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

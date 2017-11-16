@@ -1,0 +1,45 @@
+uuid: a90436a2-acde-4696-9262-06f2e8394b86
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_anio
+field_name: field_anio
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1190'
+      label: '1990'
+    -
+      value: '2000'
+      label: '2000'
+    -
+      value: '2010'
+      label: '2010'
+    -
+      value: '2011'
+      label: '2011'
+    -
+      value: '2014'
+      label: '2014'
+    -
+      value: '2015'
+      label: '2015'
+    -
+      value: '2016'
+      label: '2016'
+    -
+      value: '2017'
+      label: '2017'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

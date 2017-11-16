@@ -24,6 +24,7 @@
     "drupal/config_installer": "~1",
     "drupal/console": "~1",
     "drupal/core": "^8.4",
+    "drupal/devel": "^1.2",
     "drupal/dropzonejs": "^2.0@alpha",
     "drupal/easy_breadcrumb": "1.x-dev",
     "drupal/google_analytics": "~2",

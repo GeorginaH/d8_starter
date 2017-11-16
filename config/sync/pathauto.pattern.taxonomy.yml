@@ -1,0 +1,25 @@
+uuid: d3baa198-e567-4440-a318-eefc07f0e39a
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomy
+label: taxonomy
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria:
+  989648cd-bae3-4e4b-b468-b0695e3d96ea:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      marca: marca
+      categoria: categoria
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 989648cd-bae3-4e4b-b468-b0695e3d96ea
+selection_logic: and
+weight: -5
+relationships: {  }

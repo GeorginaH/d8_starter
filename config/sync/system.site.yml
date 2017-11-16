@@ -1,11 +1,11 @@
 uuid: 279b93e8-4273-4a1d-b9bf-e6122aba9fea
-name: 'Drush Site-Install'
+name: 'Mi catalogo'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /catalogo
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

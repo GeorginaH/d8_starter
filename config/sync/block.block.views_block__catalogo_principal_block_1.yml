@@ -1,0 +1,30 @@
+uuid: 98171ebb-1d3f-4268-a61a-9b2412658c32
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.catalogo_principal
+  module:
+    - system
+    - views
+  theme:
+    - custom_theme
+id: views_block__catalogo_principal_block_1
+theme: custom_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:catalogo_principal-block_1'
+settings:
+  id: 'views_block:catalogo_principal-block_1'
+  label: 'Instrumento más reciente'
+  provider: views
+  label_display: visible
+  views_label: 'Instrumento más reciente'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
